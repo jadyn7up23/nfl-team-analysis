@@ -1,20 +1,30 @@
-## Project Overview
-This project analyzes whether offensive performance (points, yards, turnovers) impacts team success in the NFL.
+# NFL Team Performance Analysis
 
-## Tools Used
+## Overview
+This project analyzes whether offensive performance (points, yards, turnovers) impacts team success in the NFL from 2003–2023.
+
+## Tech Stack
 - Python (Pandas)
 - PostgreSQL
 - Tableau
-- Fast API
+- Flask API
+- Git/GitHub
 
-## Key Insight
-Teams that score more points tend to win more games, while turnovers negatively impact success.
-## Tableau Dashboard
+## Key Insights
+- Teams that score more points tend to win more games
+- Higher turnovers are associated with fewer wins
+- Offensive efficiency strongly correlates with team success
 
-Download and open the Tableau dashboard file below:
+## Features
+- Data cleaning and preprocessing with Pandas
+- Normalized PostgreSQL database (teams, seasons, offensive_stats)
+- SQL analysis (JOIN, GROUP BY, CASE)
+- REST API connected to live database
+- Interactive Tableau dashboard
 
-- McClaude_NFL_Offensive_Team.twbx
+## Dashboard
+Download the Tableau file:
+`McClaude_NFL_Offensive_Team.twbx`
 
-This dashboard visualizes:
-- Points vs Wins
-- Turnovers vs Wins
+## Author
+Jadyn McClaude
